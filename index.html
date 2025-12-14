@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Faculty Directory</title>
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+  <header>
+    <h1 class="title">Faculty Directory</h1>
+    <div class="sub">Systems & Biomedical Engineering • Cairo University</div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div class="toolbar">
+  <input id="q" type="search" placeholder="Search by name or research area…" />
+  <select id="position">
+    <option value="">All Positions</option>
+  </select>
+  <span id="count" class="badge">0 faculty</span>
+</div>
+
+      <div id="grid" class="grid"></div>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
+
